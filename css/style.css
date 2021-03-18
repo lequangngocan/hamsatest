@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Gothamhtf Bold';
-    src: url(./fonts/gothamhtf-bold-webfont.ttf);
+    src: url(../fonts/gothamhtf-bold-webfont.ttf);
 }
 
 @font-face {
     font-family: 'Gothamhtf Book';
-    src: url(./fonts/gothamhtf-book-webfont.ttf);
+    src: url(../fonts/gothamhtf-book-webfont.ttf);
 }
 
 html {
