@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Gothamhtf Bold';
-    src: url(fonts/gothamhtf-bold-webfont.ttf);
+    src: url(../fonts/gothamhtf-bold-webfont.ttf);
 }
 
 @font-face {
     font-family: 'Gothamhtf Book';
-    src: url(fonts/gothamhtf-book-webfont.ttf);
+    src: url(../fonts/gothamhtf-book-webfont.ttf);
 }
 
 html {
@@ -297,3 +297,25 @@ a:hover {
         line-height: 20px;
     }
 }
+
+.preloader {
+	background: rgba(255, 255, 255, 0.99);
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 13000;
+}
+
+.preloader_image {
+	background: url(../images/preloader.gif) no-repeat 50% 50% transparent;
+	height: 256px;
+	left: 50%;
+	margin: -128px 0 0 -128px;
+	position: absolute;
+	top: 50%;
+	width: 256px;
+}
+
