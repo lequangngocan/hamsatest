@@ -158,6 +158,7 @@ form {
 .btn-input {
     border-left: 1px solid #000;
     width: 90%;
+    height: 33px;
 }
 
 .btn-submit {
