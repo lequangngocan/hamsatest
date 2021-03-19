@@ -1,4 +1,6 @@
-$(window).on('load', function(event) {
-    $('body').removeClass('preloading');
-    $('.preloader').delay(1000).fadeOut('fast');
- });
+$(document).ready(function() {
+    $(window).on('load', function() {
+        $('body').removeClass('preloading');
+        $('.preloader').delay(1000).fadeOut('fast');
+     });
+});
